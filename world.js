@@ -3800,77 +3800,77 @@
     },
     "Potion_2": {
       "rarity": "common",
-      "description": "Elixer of Guile\nthis turn, take a cunning action (dash, disengage or hide)"
+      "description": "Elixer of Guile\nThis turn, take a cunning action (dash, disengage or hide)"
     },
     "Potion_3": {
       "rarity": "common",
-      "description": "Elixer of Focussing\nthis turn, if you didn't move, advantage on one attack"
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack"
     },
     "Potion_4": {
       "rarity": "common",
-      "description": "Elixer of Channeling\nthis turn, if you didn't move, the next level 1 spell you cast counts as upcasted by 1 more level. lasts 1 minute or until used"
+      "description": "Elixer of Channeling\nThis turn, if you didn't move, the next level 1 spell you cast counts as upcasted by 1 more level. lasts 1 minute or until used."
     },
     "Potion_5": {
       "rarity": "common",
-      "description": "Elixer of Health\nhealing equal to your medicine skill"
+      "description": "Elixer of Health\nHeal equal to the medicine skill of the crafter."
     },
     "Potion_6": {
       "rarity": "common",
-      "description": "Elixer of Grace\nfor a minute, advantage on all atlethics and acrobatics rolls"
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls."
     },
     "Potion_7": {
       "rarity": "common",
-      "description": "Elixer of Vitality\nmedicine temp HP. lasts 1 minute"
+      "description": "Elixer of Vitality\nGain temporary HP equal to the medicine skill of the crafter."
     },
     "Potion_8": {
       "rarity": "common",
-      "description": "Elixer of Weaving\nthe next AoO against you has disadvantage. lasts 1 minute or until used"
+      "description": "Elixer of Weaving\nThe next Opportunity Attack against you has disadvantage. lasts 1 minute or until used."
     },
     "Potion_9": {
       "rarity": "common",
-      "description": "Elixer of Bracing\n+1d4 on you next save. lasts 1 minute or until used"
+      "description": "Elixer of Bracing\n+1d4 on you next save. lasts 1 minute or until used."
     },
     "Potion_10": {
       "rarity": "common",
-      "description": "Elixer of Coating\n+1d4 acid damage on your next hit with attack or single target spell that deals damage. if proficient with alchemist supplies, add proficiency as well. lasts 1 minute or until used"
+      "description": "Elixer of Coating\n+1d4 acid damage on your next hit with attack or single target spell that deals damage. if proficient with alchemist supplies, add proficiency as well. lasts 1 minute or until used."
     },
     "Potion_11": {
       "rarity": "common",
-      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used"
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used."
     }
   },
   "rarepotions": {
     "Potion_12": {
       "rarity": "rare",
-      "description": "Elixer of Great Strides\nthis turn, your speed increases by 30 feet and difficult terrain doesn't cost you extra movement"
+      "description": "Elixer of Great Strides\nThis turn, your speed increases by 30 feet and difficult terrain doesn't cost you extra movement."
     },
     "Potion_13": {
       "rarity": "rare",
-      "description": "Elixer of Cunning Guile\nthis turn, take two cunning actions (dash, disengage or hide)"
+      "description": "Elixer of Cunning Guile\nThis turn, take two cunning actions (dash, disengage or hide)."
     },
     "Potion_14": {
       "rarity": "rare",
-      "description": "Elixer of Sharp Focus\nthis turn, if you didn't move, advantage on one attack. crit on 19-20"
+      "description": "Elixer of Sharp Focus\nThis turn, if you didn't move, advantage on one attack and you crit on 19-20."
     },
     "Potion_15": {
       "rarity": "rare",
-      "description": "Elixer of Potent Channeling\nthis turn, if you didn't move, you next spell casts as 1 level higher. lasts 1 minute or until used"
+      "description": "Elixer of Potent Channeling\nThis turn, if you didn't move, you next spell casts as 1 level higher. lasts 1 minute or until used"
     },
     "Potion_16": {
       "rarity": "rare",
-      "description": "Elixer of Good Health\nhealing equal to 2d4 + your medicine skill"
+      "description": "Elixer of Good Health\nHeal equal to 2d4 + the medicine skill of the crafter."
     },
     "Potion_17": {
       "rarity": "rare",
-      "description": "Elixer of Swift Grace\nuntil rest, advantage on all atlethics and acrobatics rolls"
+      "description": "Elixer of Swift Grace\nUntil rest, advantage on all athletics and acrobatics rolls."
     },
     "Potion_18": {
       "rarity": "rare",
-      "description": "Elixer of Strong Vitals\ntemp hp equal to 2d4 + your medicine skill. lasts 1 minute"
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute"
     },
     "Potion_19": {
       "rarity": "rare",
-      "description": "Elixer of Intricate Weaving\nthe next attack against you has disadvantage. lasts 1 minute or until used"
+      "description": "Elixer of Intricate Weaving\nThe next attack against you has disadvantage. lasts 1 minute or until used"
     },
     "Potion_20": {
       "rarity": "rare",
@@ -3878,11 +3878,11 @@
     },
     "Potion_21": {
       "rarity": "rare",
-      "description": "Elixer of Deadly Coating\n+2d4 acid damage on your next hit with an attack or single target spell that deals damage. if proficient with alchemist supplies, add proficiency as well. lasts 1 minute or until used"
+      "description": "Elixer of Deadly Coating\n+2d4 acid damage on your next hit with an attack or single target spell that deals damage. if the crafter was proficient with Alchemist Supplies, add proficiency bonus well. lasts 1 minute or until used"
     },
     "Potion_22": {
       "rarity": "rare",
-      "description": "Elixer of Superior Aegis\nfor fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used"
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used"
     }
   }
 };
