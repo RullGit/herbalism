@@ -147,7 +147,7 @@
     .result-text.success { color: #7ec8a0; }
     .result-text.fail { color: #a8b0c0; font-style: italic; }
 
-        /* ── Mobile portrait: fill the entire viewport, no scroll ── */
+    /* ── Mobile portrait: fill the entire viewport, no scroll ── */
     @media (max-width: 768px) {
       body {
         padding: 0;
@@ -156,7 +156,7 @@
         align-items: stretch;
         justify-content: stretch;
       }
-            .brewer {
+      .brewer {
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -170,7 +170,7 @@
         order: 10;
       }
 
-            /* Result at the top */
+      /* Result at the top */
       .result-area { order: 1; margin-bottom: 0.35rem; }
       .ingredients-row { order: 2; }
       .ingredients-row {
@@ -204,7 +204,7 @@
         height: auto;
       }
       .ac-hint:empty { display: none; }
-                  .description {
+      .description {
         margin-top: 0.2rem;
         padding: 0.35rem 0.5rem;
         font-size: 0.75rem;
@@ -215,7 +215,7 @@
         overflow-y: auto;
       }
       .description:empty { display: none; }
-            .result-area {
+      .result-area {
         padding: 0.5rem 0.65rem;
         border-radius: 10px;
       }
@@ -235,12 +235,10 @@
 </head>
 <body>
   <div class="brewer">
-    <h1>Potion Brewer</h1>
-    <div class="footer-title">Potion Brewer</div>
+    <div class="footer-title">Exlixer Crafting</div>
     <div class="ingredients-row">
       <div class="ingredient-area">
-        <h2>Fresh Ingredient</h2>
-                <div class="ac-wrap">
+        <div class="ac-wrap">
           <div class="ac-row">
             <input id="fresh" type="text" placeholder="type to search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
             <button class="btn-clear" id="fresh-clear" type="button">&times;</button>
@@ -250,8 +248,7 @@
         <div class="description" id="fresh-desc"></div>
       </div>
       <div class="ingredient-area">
-        <h2>Catalyst</h2>
-                <div class="ac-wrap">
+        <div class="ac-wrap">
           <div class="ac-row">
             <input id="catalyst" type="text" placeholder="type to search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
             <button class="btn-clear" id="catalyst-clear" type="button">&times;</button>
@@ -269,8 +266,8 @@
     </div>
   </div>
 
-      <script src="world.js"></script>
-    <script>
+  <script src="world.js"></script>
+  <script>
     function init() {
       const ingredients = worldData.ingredients;
 
