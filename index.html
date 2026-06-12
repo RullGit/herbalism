@@ -48,8 +48,14 @@
       margin-bottom: 1rem;
       color: #c8a96e;
     }
-    .ac-wrap input {
-      width: 100%;
+        .ac-row {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .ac-row input {
+      flex: 1;
+      min-width: 0;
       padding: 0.6rem 0.8rem;
       border-radius: 8px;
       border: 1px solid #444;
@@ -58,8 +64,36 @@
       font-family: Georgia, serif;
       font-size: 0.95rem;
     }
-    .ac-wrap input:focus { outline: 2px solid #c8a96e; border-color: transparent; }
-    .ac-wrap input.matched { border-color: #7ec8a0; }
+    .ac-row input:focus { outline: 2px solid #c8a96e; border-color: transparent; }
+    .ac-row input.matched { border-color: #7ec8a0; }
+    .btn-clear {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #444;
+      border-radius: 8px;
+      background: #0f3460;
+      color: #e0d6c8;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+    .btn-clear:hover { background: #1a3a6e; }
+    .btn-next {
+      margin-top: 1rem;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid #c8a96e;
+      border-radius: 8px;
+      background: transparent;
+      color: #c8a96e;
+      font-family: Georgia, serif;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    .btn-next:hover { background: rgba(200, 169, 110, 0.15); }
     .ac-hint {
       margin-top: 0.35rem;
       font-size: 0.8rem;
@@ -103,73 +137,86 @@
     .result-text.success { color: #7ec8a0; }
     .result-text.fail { color: #a8b0c0; font-style: italic; }
 
-    /* ── Mobile portrait: fit everything in viewport, no scroll ── */
-    @media (max-width: 640px) {
+        /* ── Mobile portrait: fill the entire viewport, no scroll ── */
+    @media (max-width: 768px) {
       body {
-        padding: 0.75rem;
+        padding: 0;
         height: 100vh;
         height: 100dvh;
         align-items: stretch;
+        justify-content: stretch;
       }
       .brewer {
         display: flex;
         flex-direction: column;
         height: 100%;
-        max-height: 100%;
+        max-width: 100%;
+        padding: 1rem;
       }
       h1 {
-        font-size: 1.35rem;
-        margin-bottom: 0.6rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
         flex-shrink: 0;
       }
       .ingredients-row {
         flex-direction: column;
-        gap: 0.5rem;
-        margin-bottom: 0.5rem;
-        flex: 1;
+        gap: 0.6rem;
+        margin-bottom: 0.6rem;
+        flex: 1 1 0;
         min-height: 0;
       }
       .ingredient-area {
-        flex: 1;
+        flex: 1 1 0;
         min-height: 0;
-        padding: 0.65rem 0.75rem;
-        border-radius: 8px;
+        padding: 0.75rem;
+        border-radius: 10px;
       }
       .ingredient-area h2 {
-        font-size: 0.85rem;
-        margin-bottom: 0.4rem;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
       }
-      .ac-wrap input {
-        padding: 0.45rem 0.6rem;
-        font-size: 0.85rem;
-        border-radius: 6px;
+      .ac-row input {
+        padding: 0.55rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 8px;
+      }
+      .btn-clear {
+        width: 2.2rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
+        border-radius: 8px;
       }
       .ac-hint {
-        margin-top: 0.2rem;
-        font-size: 0.7rem;
+        margin-top: 0.25rem;
+        font-size: 0.8rem;
       }
       .description {
-        margin-top: 0.35rem;
-        padding: 0.5rem;
-        font-size: 0.75rem;
-        line-height: 1.35;
-        border-radius: 6px;
+        margin-top: 0.4rem;
+        padding: 0.6rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+        border-radius: 8px;
       }
       .result-area {
-        padding: 0.65rem 0.75rem;
-        border-radius: 8px;
+        padding: 0.75rem;
+        border-radius: 10px;
         flex-shrink: 0;
       }
       .result-area h2 {
-        font-size: 0.85rem;
-        margin-bottom: 0.4rem;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
       }
       .result-text {
-        padding: 0.5rem;
-        font-size: 0.8rem;
-        line-height: 1.4;
-        min-height: 1.5rem;
-        border-radius: 6px;
+        padding: 0.6rem;
+        font-size: 0.95rem;
+        line-height: 1.45;
+        min-height: 2rem;
+        border-radius: 8px;
+      }
+      .btn-next {
+        margin-top: 0.6rem;
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
       }
     }
   </style>
@@ -180,17 +227,23 @@
     <div class="ingredients-row">
       <div class="ingredient-area">
         <h2>Fresh Ingredient</h2>
-        <div class="ac-wrap">
-          <input id="fresh" type="text" placeholder="type to search…" autocomplete="off">
-                    <div class="ac-hint" id="fresh-hint"></div>
+                <div class="ac-wrap">
+          <div class="ac-row">
+            <input id="fresh" type="text" placeholder="type to search…" autocomplete="off">
+            <button class="btn-clear" id="fresh-clear" type="button">&times;</button>
+          </div>
+          <div class="ac-hint" id="fresh-hint"></div>
         </div>
         <div class="description" id="fresh-desc"></div>
       </div>
       <div class="ingredient-area">
         <h2>Catalyst</h2>
-        <div class="ac-wrap">
-          <input id="catalyst" type="text" placeholder="type to search…" autocomplete="off">
-                    <div class="ac-hint" id="catalyst-hint"></div>
+                <div class="ac-wrap">
+          <div class="ac-row">
+            <input id="catalyst" type="text" placeholder="type to search…" autocomplete="off">
+            <button class="btn-clear" id="catalyst-clear" type="button">&times;</button>
+          </div>
+          <div class="ac-hint" id="catalyst-hint"></div>
         </div>
         <div class="description" id="catalyst-desc"></div>
       </div>
@@ -198,6 +251,7 @@
     <div class="result-area">
       <h2>Result</h2>
       <div class="result-text" id="result"></div>
+      <button class="btn-next" id="next-btn" type="button">Next</button>
     </div>
   </div>
 
@@ -222,9 +276,12 @@
     /* Per-field state: resolved id (null until a unique match) */
     const resolved = { fresh: null, catalyst: null };
 
-        function setupAC(name, items) {
-      const input = document.getElementById(name);
-      const hint  = document.getElementById(name + '-hint');
+            const clearFns = {};
+
+    function setupAC(name, items) {
+      const input  = document.getElementById(name);
+      const hint   = document.getElementById(name + '-hint');
+      const clearBtn = document.getElementById(name + '-clear');
 
       function filter(q) {
         const lower = q.toLowerCase();
@@ -243,6 +300,16 @@
         input.classList.remove('matched');
         update();
       }
+
+            function clearField() {
+        input.value = '';
+        unpick();
+        hint.textContent = '';
+        input.focus();
+      }
+
+      clearFns[name] = clearField;
+      clearBtn.addEventListener('click', clearField);
 
       input.addEventListener('input', () => {
         const q = input.value.trim();
@@ -285,6 +352,11 @@
         resultEl.className = 'result-text fail';
       }
     }
+
+        document.getElementById('next-btn').addEventListener('click', () => {
+      clearFns.fresh();
+      clearFns.catalyst();
+    });
 
     init();
   </script>
