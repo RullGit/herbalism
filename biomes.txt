@@ -1,0 +1,64 @@
+Poolgebied|Common|1|Sneeuwwit ijsmos|Groeit als een plant, maar smelt in zijn geheel
+Poolgebied|Common|2|Maanglansgevangen poolzout|Zoutvlokken die alleen ontstaan tijdens poolnachten waarin maanlicht op vers zee-ijs wordt weerkaatst
+Poolgebied|Common|3|Onbevriesbaar bronwater|Welt op uit warme aders diep onder het ijs en blijft zelfs in sneeuwstormen vloeibaar
+Poolgebied|Common|4|Vorsthars van oude ijsdennen|Helderblauwe hars die warm is als het koud is en koud als het warm is
+Poolgebied|Common|5|Hemelglans Sneeuwbloemen|openen hun bloemblaadjes alleen onder sterrenlicht
+Poolgebied|Rare|1|Bevroren Noorderlichtdauw|dauwdruppels die het noorderlicht lijken vast te houden als kleurige slierten
+Poolgebied|Rare|2|Altijdbevroren Gletsjer-ijs|eeuwenoud ijs dat zelfs boven vuur nauwelijks smelt
+Poolgebied|Rare|3|Etherische aurora-kristallen|Flinterdunne mineraalschilfers die als suiker op de tong oplossen
+Kust|Common|1|Mystiek getijdenzout|Tien keer zo sterk van smaak als gewoon zout
+Kust|Common|2|Diepzee-sluieralgen|Glad en sterk als zijde. Eetbaar als sushiblad.
+Kust|Common|3|Parelmoer Brandingkalk|glinstert in alle kleuren wit
+Kust|Common|4|Zeelavendel|Geurt als echte lavendel en is zelfs boven water te ruiken
+Kust|Common|5|Springtijschuim|Alleen te vinden na springtij op magische plekken
+Kust|Rare|1|Spooklichtschelpen|zijn doorzichtig en lijken zelfs licht te versterken als je er doorheen kijkt
+Kust|Rare|2|Altijdglanzende Parels|geven daadwerkelijk licht, maar zijn zacht als bobaparels
+Kust|Rare|3|Onzichtbaar koraal|moeilijk te vinden en kwetsbaar
+Woestijn|Common|1|Zonverschroeid saffraanstof|Rood poeder dat vloeistoffen goud kleurt
+Woestijn|Common|2|Avondgloed-palm bladeren|Licht doorzichtige bladeren met een warme amberkleurige gloed
+Woestijn|Common|3|Oasedauw|Alleen te vinden in bloemen die 's nachts open zijn en voor de dageraad dicht gaan
+Woestijn|Common|4|Zandstormkristal|Glinstert als een regenboog en ontstaat alleen na zandstormen. Een breekbaar mineraal dat verpulvert tot regenboogkleurig stof dat zoet smaakt.
+Woestijn|Common|5|Versteend Dadelpalmschors|Heeft een kaneelachtige smaak wanneer het tot poeder wordt gemalen
+Woestijn|Rare|1|Zelfontvlammende Cactusbloesem-as|Alleen te vinden direct nadat deze bloemen spontaan ontbranden na het bloeien
+Woestijn|Rare|2|Vuurbestendig Jojobahars|blijft koel zelfs tussen gloeiende kolen
+Woestijn|Rare|3|Onverdampbaar oasewater|veel meer dorstlessend dan gewoon water
+Oerbos|Common|1|Fluisterboomhars|Dempt geluiden in de omgeving
+Oerbos|Common|2|Fluoriserend maanblad|versterkt maanlicht
+Oerbos|Common|3|Gloeiwortelsap|Wortels die licht geven wanneer ze worden opgegraven. Opengesneden geven ze een dik, amberkleurig, zoet sap
+Oerbos|Common|4|Betoverd dauwmos|Groeit zelfs zonder bron van water door.
+Oerbos|Common|5|Maanlichtverrijkte Wilgenbladeren|zilveren nerven zijn zichtbaar na volle maan
+Oerbos|Rare|1|Nachtbloeiende Bos-anemoon|opent zich alleen in volledige duisternis zonder maanlicht
+Oerbos|Rare|2|Smaragdgroene Sterrenvaren|varenpunten lijken op kleine sterren in het maanlicht
+Oerbos|Rare|3|Droomklaproos|ruikt zeer zoet en zwaar vlak voor zonsopkomst
+Grasland|Common|1|Steppewindkruid|Een dor kruid dat ritselt in de wind en zacht blijft ritselen, ook zonder wind.
+Grasland|Common|2|Gouden ochtendzongras|Gouden grassprieten die al voor zonsopkomst warm aanvoelen in de ochtend
+Grasland|Common|3|Midzomerbloemenhoning|Te vinden in verlaten bijenkorven. De verhalen gaan dat van zo’n korf de bijen in fairies zijn veranderd
+Grasland|Common|4|Sterrenklaver|Klaver met vijf zilveren blaadjes
+Grasland|Common|5|Gezegende ochtenddauw|verschijnt alleen op gras dat nog nooit betreden is
+Grasland|Rare|1|Paarse Wind|Lavendel die zo sterk van geur is dat het de wind lijkt te kleuren
+Grasland|Rare|2|Zilver Maanbolsap|glanst als kwik
+Grasland|Rare|3|Arcaan bronbeekwater|Kristalhelder water waarin licht op een vreemde manier wordt gebroken
+Bergen|Common|1|IJzerhars van rotsdennen|Donkere hars met een metaalachtige glans. Heeft de geur van natte steen en de smaak van bloed
+Bergen|Common|2|Lawinekruid|groeit alleen op plekken waar recent lawines waren
+Bergen|Common|3|Stormroos|doornen geven kleine schokjes
+Bergen|Common|4|Glinsterend zilversparrensap|stroperig sap met zilverwitte schittering
+Bergen|Common|5|Onweeralsem|donkere bladeren die naar regenlucht ruiken nog voor een storm arriveert
+Bergen|Rare|1|Verdwaalde dennenaalden|wijzen altijd naar het noorden als ze in water vallen
+Bergen|Rare|2|Eeuwigfonkelend Diamantzout|fonkelt in het donker
+Bergen|Rare|3|Bliksemgeladen bergmunt|Tintelt scherp op de tong, als extreem koude lucht
+Moeras|Common|1|Moeras spirea|ruikt naar amandel
+Moeras|Common|2|Mistveenschimmel|bleke penseelschimmel die damp afgeeft alsof hij voortdurend koude adem uitblaast
+Moeras|Common|3|Schaduwglanzende moerasbessen|donker in het licht en licht in het donker
+Moeras|Common|4|Nachtmistzwam|Verplaatst zich ongezien tijdens de nacht
+Moeras|Common|5|Zilvertreurwilgenschors|verspreidt een rustgevende geur wanneer gekookt in water
+Moeras|Rare|1|Zwarte Lotus|Onttrekt maanlicht aan de omgeving
+Moeras|Rare|2|Vervlochten mistriet|rietpluimen die runes vormen bij het groeien
+Moeras|Rare|3|Magiedoordrenkt Veenmos|lijkt de werking van spells te absorberen
+Grot|Common|1|Druipsteenwater|kalkrijk water met een frisse minerale smaak
+Grot|Common|2|Luminescente Koperzwam|bleke zwam die blauwgroen oplicht in vochtige grotten
+Grot|Common|3|Dieptegloeiende zoutkristallen|geven alleen licht op grote diepte
+Grot|Common|4|Sluimerend spelonkmos|beweegt langzaam alsof het ademt
+Grot|Common|5|Duisteralg|Lost op in het niets zodra deze alg in aanraking komt met licht
+Grot|Rare|1|Oerertsdoortrokken Boleet|Lijkt aders van zilver en goud te hebben
+Grot|Rare|2|Trilgevoelig Dieptemos|donker mos dat trilt bij de kleinste geluiden in de grot
+Grot|Rare|3|Eeuwige fluisterkristallen|Geven eindeloos zachte echo's af, ook in complete stilte

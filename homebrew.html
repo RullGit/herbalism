@@ -1,0 +1,292 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Potion Brewer</title>
+  <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      font-family: Georgia, serif;
+      background: #1a1a2e;
+      color: #e0d6c8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .brewer {
+      max-width: 900px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #c8a96e;
+      text-shadow: 0 0 20px rgba(200, 169, 110, 0.3);
+    }
+    .ingredients-row {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .ingredient-area {
+      flex: 1;
+      background: #16213e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .ingredient-area h2 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #c8a96e;
+    }
+    .ac-wrap input {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      border: 1px solid #444;
+      background: #0f3460;
+      color: #e0d6c8;
+      font-family: Georgia, serif;
+      font-size: 0.95rem;
+    }
+    .ac-wrap input:focus { outline: 2px solid #c8a96e; border-color: transparent; }
+    .ac-wrap input.matched { border-color: #7ec8a0; }
+    .ac-hint {
+      margin-top: 0.35rem;
+      font-size: 0.8rem;
+      color: #666;
+      height: 1.1em;
+    }
+    .description {
+      margin-top: 0.5rem;
+      flex: 1;
+      min-height: 0;
+      padding: 0.8rem;
+      background: #0f3460;
+      border-radius: 8px;
+      font-style: italic;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #a8b0c0;
+      overflow: hidden;
+    }
+    .result-area {
+      background: #16213e;
+      border: 2px solid #c8a96e;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .result-area h2 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #c8a96e;
+    }
+    .result-text {
+      padding: 1rem;
+      background: #0f3460;
+      border-radius: 8px;
+      font-size: 1rem;
+      line-height: 1.6;
+      min-height: 2rem;
+    }
+    .result-text.success { color: #7ec8a0; }
+    .result-text.fail { color: #a8b0c0; font-style: italic; }
+
+    /* ── Mobile portrait: fit everything in viewport, no scroll ── */
+    @media (max-width: 640px) {
+      body {
+        padding: 0.75rem;
+        height: 100vh;
+        height: 100dvh;
+        align-items: stretch;
+      }
+      .brewer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        max-height: 100%;
+      }
+      h1 {
+        font-size: 1.35rem;
+        margin-bottom: 0.6rem;
+        flex-shrink: 0;
+      }
+      .ingredients-row {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+        flex: 1;
+        min-height: 0;
+      }
+      .ingredient-area {
+        flex: 1;
+        min-height: 0;
+        padding: 0.65rem 0.75rem;
+        border-radius: 8px;
+      }
+      .ingredient-area h2 {
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+      }
+      .ac-wrap input {
+        padding: 0.45rem 0.6rem;
+        font-size: 0.85rem;
+        border-radius: 6px;
+      }
+      .ac-hint {
+        margin-top: 0.2rem;
+        font-size: 0.7rem;
+      }
+      .description {
+        margin-top: 0.35rem;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        line-height: 1.35;
+        border-radius: 6px;
+      }
+      .result-area {
+        padding: 0.65rem 0.75rem;
+        border-radius: 8px;
+        flex-shrink: 0;
+      }
+      .result-area h2 {
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+      }
+      .result-text {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1.4;
+        min-height: 1.5rem;
+        border-radius: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="brewer">
+    <h1>Potion Brewer</h1>
+    <div class="ingredients-row">
+      <div class="ingredient-area">
+        <h2>Fresh Ingredient</h2>
+        <div class="ac-wrap">
+          <input id="fresh" type="text" placeholder="type to search…" autocomplete="off">
+                    <div class="ac-hint" id="fresh-hint"></div>
+        </div>
+        <div class="description" id="fresh-desc"></div>
+      </div>
+      <div class="ingredient-area">
+        <h2>Catalyst</h2>
+        <div class="ac-wrap">
+          <input id="catalyst" type="text" placeholder="type to search…" autocomplete="off">
+                    <div class="ac-hint" id="catalyst-hint"></div>
+        </div>
+        <div class="description" id="catalyst-desc"></div>
+      </div>
+    </div>
+    <div class="result-area">
+      <h2>Result</h2>
+      <div class="result-text" id="result"></div>
+    </div>
+  </div>
+
+      <script src="world.js"></script>
+    <script>
+    function init() {
+      const ingredients = worldData.ingredients;
+
+      // Build sorted list of entries as { id, label, description }
+      const sorted = Object.entries(ingredients)
+        .map(([id, ing]) => ({
+          id,
+          label: ing.biome + ' \u2013 ' + ing.name,
+          description: ing.description
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label, 'nl'));
+
+      setupAC('fresh', sorted);
+      setupAC('catalyst', sorted);
+    }
+
+    /* Per-field state: resolved id (null until a unique match) */
+    const resolved = { fresh: null, catalyst: null };
+
+        function setupAC(name, items) {
+      const input = document.getElementById(name);
+      const hint  = document.getElementById(name + '-hint');
+
+      function filter(q) {
+        const lower = q.toLowerCase();
+        return items.filter(i => i.label.toLowerCase().includes(lower));
+      }
+
+            function pick(item) {
+        resolved[name] = item.id;
+        input.classList.add('matched');
+        hint.textContent = '\u2714 ' + item.label;
+        update();
+      }
+
+      function unpick() {
+        resolved[name] = null;
+        input.classList.remove('matched');
+        update();
+      }
+
+      input.addEventListener('input', () => {
+        const q = input.value.trim();
+        unpick();
+        if (!q) { hint.textContent = ''; return; }
+        const matches = filter(q);
+        if (matches.length === 1) {
+          pick(matches[0]);
+        } else {
+          hint.textContent = matches.length ? matches.length + ' matches' : 'no matches';
+        }
+      });
+    }
+
+    function update() {
+      const freshId = resolved.fresh;
+      const catId   = resolved.catalyst;
+      const ing     = worldData.ingredients;
+
+      document.getElementById('fresh-desc').textContent =
+        freshId ? ing[freshId].description : '';
+      document.getElementById('catalyst-desc').textContent =
+        catId ? ing[catId].description : '';
+
+      const resultEl = document.getElementById('result');
+      if (!freshId || !catId) {
+        resultEl.textContent = '';
+        resultEl.className = 'result-text';
+        return;
+      }
+
+      const key = [freshId, catId].sort().join('+');
+      const recipe = worldData.recipes[key];
+
+      if (recipe) {
+        resultEl.textContent = recipe.description;
+        resultEl.className = 'result-text success';
+      } else {
+        resultEl.textContent = 'nothing remarkable was brewed';
+        resultEl.className = 'result-text fail';
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
