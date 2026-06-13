@@ -176,7 +176,6 @@
     .ac-hint:empty { display: none; }
     .description {
       margin-left: 20px;
-      margin-top: 0.2rem;
       flex: 0 1 auto;
       min-height: 0;
       max-height: 2.5rem;
@@ -193,7 +192,6 @@
       border-radius: 12px;
       padding: 0.5rem 0.65rem;
       flex-shrink: 0;
-      margin-top: 0.5rem;
       box-shadow: 0 0 12px rgba(201,169,110,0.15), inset 0 1px 3px rgba(0,0,0,0.3);
       position: relative;
     }
@@ -216,11 +214,8 @@
     .result-text {
       flex: 1;
       min-width: 0;
-      padding: 0.4rem 0.6rem;
       border-radius: 8px;
       font-size: 0.9rem;
-      line-height: 1.35;
-      min-height: 1.4rem;
     }
     .result-text.success {
       color: #a0d468;
@@ -364,7 +359,7 @@
 
       if (recipe) {
         const potion = worldData.potions[recipe.potion];
-        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + potion.name;
+        resultEl.innerHTML  = '🧪' + potion.name + '<span class="mirror">🧪</span>';
         resultEl.className = 'result-text success';
         resultDesc.textContent = potion.description;
       } else {
