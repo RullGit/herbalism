@@ -2,61 +2,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Potion Brewer</title>
+  <title>🌿 Herbal Elixir Brewer 🌿</title>
   <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body {
       height: 100%;
       overflow: hidden;
     }
     body {
-      font-family: Georgia, serif;
-      background: #1a1a2e;
-      color: #e0d6c8;
+      font-family: 'Cinzel Decorative', serif;
+      background:
+        radial-gradient(ellipse at 20% 80%, rgba(34,85,34,0.25) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(85,60,20,0.2) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(20,40,20,0.4) 0%, transparent 70%),
+        linear-gradient(175deg, #0d1a0d 0%, #1a2e1a 25%, #2a1f0e 50%, #1a2e1a 75%, #0d1a0d 100%);
+      background-attachment: fixed;
+      color: #d4c9a8;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
+      padding: 0;
+      height: 100vh;
+      height: 100dvh;
+      align-items: stretch;
+      justify-content: stretch;
+      position: relative;
+    }
+    body::before {
+      content: '\1F33F\1F33B\1F343\2618\FE0F\1F33E\1F340\1F33A\1F337\2694\FE0F\1F33F\1F33B\1F343\2618\FE0F\1F33E\1F340\1F33A\1F337';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      font-size: 2.5rem;
+      word-spacing: 1rem;
+      letter-spacing: 1.5rem;
+      line-height: 3.5rem;
+      opacity: 0.04;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+      padding: 1rem;
+      word-break: break-all;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -10px; left: 0; right: 0;
+      height: 80px;
+      background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 80'%3E%3Cpath d='M0 60 Q10 30 20 50 Q30 20 40 45 Q50 15 60 40 Q70 10 80 35 Q90 5 100 30 Q110 15 120 40 Q130 20 140 50 Q150 25 160 45 Q170 20 180 50 Q190 30 200 55 Q210 25 220 48 Q230 18 240 42 Q250 12 260 38 Q270 8 280 35 Q290 15 300 40 Q310 20 320 48 Q330 28 340 50 Q350 22 360 45 Q370 18 380 42 Q390 25 400 50 L400 80 L0 80Z' fill='%230d1a0d' opacity='0.6'/%3E%3C/svg%3E") repeat-x;
+      pointer-events: none;
+      z-index: 0;
     }
     .brewer {
-      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-width: 100%;
       width: 100%;
+      padding: 0.5rem;
+      position: relative;
+      z-index: 1;
     }
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      color: #c8a96e;
-      text-shadow: 0 0 20px rgba(200, 169, 110, 0.3);
-    }
+    h1 { display: none; }
     .footer-title {
-      display: none;
+      display: block;
       text-align: center;
-      color: #c8a96e;
-      opacity: 0.35;
+      color: #8b7355;
+      opacity: 0.5;
       font-size: 0.85rem;
       padding-top: 0.5rem;
+      flex-shrink: 0;
+      margin-top: auto;
+      font-family: 'Cinzel Decorative', serif;
+      letter-spacing: 0.15em;
     }
     .ingredients-row {
       display: flex;
-      gap: 2rem;
-      margin-bottom: 2rem;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 0;
+      flex: 0 1 auto;
+      min-height: 0;
     }
     .ingredient-area {
-      flex: 1;
-      background: #16213e;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 1.5rem;
+      flex: 0 1 auto;
+      min-height: 120px;
+      background: linear-gradient(135deg, rgba(26,46,26,0.85) 0%, rgba(42,31,14,0.8) 100%);
+      border: 1px solid #4a6a3a;
+      border-radius: 5px;
+      padding: 3px 4px;
       display: flex;
       flex-direction: column;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.3), 0 0 8px rgba(74,106,58,0.15);
+      backdrop-filter: blur(4px);
     }
-    .ingredient-area h2 {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-      color: #c8a96e;
-    }
-        .ac-row {
+    .ingredient-area h2 { display: none; }
+    .ac-row {
       display: flex;
       gap: 0.5rem;
       align-items: center;
@@ -64,70 +105,108 @@
     .ac-row input {
       flex: 1;
       min-width: 0;
-      padding: 0.6rem 0.8rem;
-      border-radius: 8px;
-      border: 1px solid #444;
-      background: #0f3460;
-      color: #e0d6c8;
-      font-family: Georgia, serif;
-      font-size: 0.95rem;
+      padding: 2px;
+      border-radius: 5px;
+      border: 1px solid #5a7a4a;
+      background: rgba(13,26,13,0.7);
+      color: #d4c9a8;
+      font-family: 'Cinzel Decorative', Georgia, serif;
+      font-size: 1rem;
+      transition: all 0.3s ease;
     }
-    .ac-row input:focus { outline: 2px solid #c8a96e; border-color: transparent; }
-    .ac-row input.matched { border-color: #7ec8a0; }
+    .ac-row input::placeholder {
+      color: #6b7a5a;
+    }
+    .ac-row input:focus {
+      outline: none;
+      border-color: #a0d468;
+      box-shadow: 0 0 10px rgba(160,212,104,0.3), inset 0 0 6px rgba(160,212,104,0.1);
+    }
+    .ac-row input.matched {
+      border-color: #78b855;
+      background: rgba(40,70,30,0.5);
+      box-shadow: 0 0 8px rgba(120,184,85,0.25);
+    }
     .btn-clear {
       flex-shrink: 0;
       width: 2rem;
       height: 2rem;
-      border: 1px solid #444;
+      border: 1px solid #5a7a4a;
       border-radius: 8px;
-      background: #0f3460;
-      color: #e0d6c8;
+      background: rgba(13,26,13,0.7);
+      color: #c9a96e;
       font-size: 1.1rem;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
       line-height: 1;
+      transition: all 0.2s ease;
     }
-    .btn-clear:hover { background: #1a3a6e; }
-        .btn-next {
+    .btn-clear:hover {
+      background: rgba(90,50,20,0.5);
+      border-color: #c9a96e;
+      box-shadow: 0 0 6px rgba(201,169,110,0.3);
+    }
+    .btn-next {
       flex-shrink: 0;
-      padding: 0.5rem 1rem;
-      border: 1px solid #c8a96e;
+      padding: 0.4rem 0.75rem;
+      border: 1px solid #78b855;
       border-radius: 8px;
-      background: transparent;
-      color: #c8a96e;
-      font-family: Georgia, serif;
-      font-size: 0.9rem;
+      background: linear-gradient(135deg, rgba(40,70,30,0.4) 0%, rgba(60,100,40,0.3) 100%);
+      color: #a0d468;
+      font-family: 'Cinzel Decorative', Georgia, serif;
+      font-size: 0.85rem;
       cursor: pointer;
       white-space: nowrap;
+      transition: all 0.2s ease;
+      letter-spacing: 0.05em;
     }
-    .btn-next:hover { background: rgba(200, 169, 110, 0.15); }
+    .btn-next:hover {
+      background: linear-gradient(135deg, rgba(60,100,40,0.5) 0%, rgba(80,130,50,0.4) 100%);
+      box-shadow: 0 0 10px rgba(120,184,85,0.3);
+      border-color: #a0d468;
+    }
     .ac-hint {
-      margin-top: 0.35rem;
-      font-size: 0.8rem;
-      color: #666;
-      height: 1.1em;
+      margin-top: 0.1rem;
+      font-size: 1.75rem;
+      color: #7a8a6a;
+      height: auto;
     }
+    .ac-hint:empty { display: none; }
     .description {
-      margin-top: 0.5rem;
-      flex: 1;
+      margin-left: 20px;
+      margin-top: 0.2rem;
+      flex: 0 1 auto;
       min-height: 0;
-      padding: 0.8rem;
-      background: #0f3460;
-      border-radius: 8px;
-      font-style: italic;
-      font-size: 0.9rem;
-      line-height: 1.5;
-      color: #a8b0c0;
-      overflow: hidden;
+      max-height: 2.5rem;
+      padding: 0.35rem 0.5rem;
+      font-size: 0.75rem;
+      line-height: 1.0;
+      color: #a0b090;
+      overflow-y: auto;
     }
-        .result-area {
-      background: #16213e;
-      border: 2px solid #c8a96e;
+    .description:empty { display: none; }
+    .result-area {
+      background: linear-gradient(135deg, rgba(42,31,14,0.85) 0%, rgba(26,46,26,0.8) 100%);
+      border: 2px solid #c9a96e;
       border-radius: 12px;
-      padding: 1rem;
+      padding: 0.5rem 0.65rem;
       flex-shrink: 0;
+      margin-top: 0.5rem;
+      box-shadow: 0 0 12px rgba(201,169,110,0.15), inset 0 1px 3px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .result-area::before {
+      content: '\2697\FE0F';
+      position: absolute;
+      top: -0.6rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.1rem;
+      background: #1a2e1a;
+      padding: 0 0.4rem;
+      border-radius: 50%;
     }
     .result-row {
       display: flex;
@@ -137,111 +216,30 @@
     .result-text {
       flex: 1;
       min-width: 0;
-      padding: 0.6rem 0.8rem;
-      background: #0f3460;
+      padding: 0.4rem 0.6rem;
       border-radius: 8px;
-      font-size: 1rem;
-      line-height: 1.5;
-      min-height: 2rem;
+      font-size: 0.9rem;
+      line-height: 1.35;
+      min-height: 1.4rem;
     }
-    .result-text.success { color: #7ec8a0; }
-    .result-text.fail { color: #a8b0c0; font-style: italic; }
-
-    /* ── Mobile portrait: fill the entire viewport, no scroll ── */
-    @media (max-width: 768px) {
-      body {
-        padding: 0;
-        height: 100vh;
-        height: 100dvh;
-        align-items: stretch;
-        justify-content: stretch;
-      }
-      .brewer {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        max-width: 100%;
-        padding: 0.5rem;
-      }
-      h1 { display: none; }
-      .footer-title {
-        display: block;
-        flex-shrink: 0;
-        order: 10;
-      }
-
-      /* Result at the top */
-      .result-area { order: 1; margin-bottom: 0.35rem; }
-      .ingredients-row { order: 2; }
-      .ingredients-row {
-        flex-direction: column;
-        gap: 0.35rem;
-        margin-bottom: 0;
-        flex: 0 1 auto;
-        min-height: 0;
-      }
-      .ingredient-area {
-        flex: 0 1 auto;
-        min-height: 0;
-        padding: 0.4rem 0.6rem;
-        border-radius: 10px;
-      }
-            .ingredient-area h2 { display: none; }
-            .ac-row input {
-        padding: 0.45rem 0.6rem;
-        font-size: 1rem;
-        border-radius: 8px;
-      }
-      .btn-clear {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1.1rem;
-        border-radius: 8px;
-      }
-      .ac-hint {
-        margin-top: 0.1rem;
-        font-size: 0.75rem;
-        height: auto;
-      }
-      .ac-hint:empty { display: none; }
-      .description {
-        margin-top: 0.2rem;
-        padding: 0.35rem 0.5rem;
-        font-size: 0.75rem;
-        line-height: 1.3;
-        border-radius: 6px;
-        flex: 0 1 auto;
-        max-height: 2.5rem;
-        overflow-y: auto;
-      }
-      .description:empty { display: none; }
-      .result-area {
-        padding: 0.5rem 0.65rem;
-        border-radius: 10px;
-      }
-      .result-text {
-        padding: 0.4rem 0.6rem;
-        font-size: 0.9rem;
-        line-height: 1.35;
-        min-height: 1.4rem;
-        border-radius: 8px;
-      }
-      .btn-next {
-        padding: 0.4rem 0.75rem;
-        font-size: 0.85rem;
-      }
+    .result-text.success {
+      color: #a0d468;
+      border-color: rgba(120,184,85,0.4);
+      text-shadow: 0 0 8px rgba(160,212,104,0.2);
+    }
+    .result-text.fail {
+      color: #c7221c;
     }
   </style>
 </head>
 <body>
-  <div class="brewer">
-    <div class="footer-title">Exlixer Crafting</div>
+    <div class="brewer">
     <div class="ingredients-row">
       <div class="ingredient-area">
         <div class="ac-wrap">
           <div class="ac-row">
-            <input id="fresh" type="text" placeholder="type to search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
-            <button class="btn-clear" id="fresh-clear" type="button">&times;</button>
+            <input id="fresh" type="text" placeholder="🌿 search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
+            <button class="btn-clear" id="fresh-clear" type="button">🍂</button>
           </div>
           <div class="ac-hint" id="fresh-hint"></div>
         </div>
@@ -250,20 +248,21 @@
       <div class="ingredient-area">
         <div class="ac-wrap">
           <div class="ac-row">
-            <input id="catalyst" type="text" placeholder="type to search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
-            <button class="btn-clear" id="catalyst-clear" type="button">&times;</button>
+            <input id="catalyst" type="text" placeholder="🌱 search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
+            <button class="btn-clear" id="catalyst-clear" type="button">🍂</button>
           </div>
           <div class="ac-hint" id="catalyst-hint"></div>
         </div>
         <div class="description" id="catalyst-desc"></div>
       </div>
     </div>
-        <div class="result-area">
+    <div class="result-area">
       <div class="result-row">
         <div class="result-text" id="result"></div>
-        <button class="btn-next" id="next-btn" type="button">Next</button>
+        <button class="btn-next" id="next-btn" type="button">🍂New🍂</button>
       </div>
     </div>
+    <div class="footer-title">🧪 Elixir Crafting 🧪</div>
   </div>
 
   <script src="world.js"></script>
@@ -275,7 +274,7 @@
       const sorted = Object.entries(ingredients)
         .map(([id, ing]) => ({
           id,
-          label: ing.biome + ' \u2013 ' + ing.name,
+          label: ing.name + '  (' + ing.biome + ')',
           description: ing.description
         }))
         .sort((a, b) => a.label.localeCompare(b.label, 'nl'));
@@ -287,7 +286,7 @@
     /* Per-field state: resolved id (null until a unique match) */
     const resolved = { fresh: null, catalyst: null };
 
-            const clearFns = {};
+    const clearFns = {};
 
     function setupAC(name, items) {
       const input  = document.getElementById(name);
@@ -299,10 +298,10 @@
         return items.filter(i => i.label.toLowerCase().includes(lower));
       }
 
-            function pick(item) {
+      function pick(item) {
         resolved[name] = item.id;
         input.classList.add('matched');
-        hint.textContent = '\u2714 ' + item.label;
+        hint.textContent = '🌺' + item.label;
         update();
       }
 
@@ -312,7 +311,7 @@
         update();
       }
 
-            function clearField() {
+      function clearField() {
         input.value = '';
         unpick();
         hint.textContent = '';
@@ -330,7 +329,7 @@
         if (matches.length === 1) {
           pick(matches[0]);
         } else {
-          hint.textContent = matches.length ? matches.length + ' matches' : 'no matches';
+          hint.textContent = matches.length ? '\uD83C\uDF3E ' + matches.length + ' ingredients possible \uD83C\uDF3E' : '🍃 no ingredient matches 🍃';
         }
       });
     }
@@ -356,15 +355,15 @@
       const recipe = worldData.recipes[key];
 
       if (recipe) {
-        resultEl.textContent = recipe.description;
+        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + recipe.description;
         resultEl.className = 'result-text success';
       } else {
-        resultEl.textContent = 'nothing remarkable was brewed';
+        resultEl.textContent = '\uD83E\uDDEA\uD83C\uDF43 nothing remarkable was brewed';
         resultEl.className = 'result-text fail';
       }
     }
 
-        document.getElementById('next-btn').addEventListener('click', () => {
+      document.getElementById('next-btn').addEventListener('click', () => {
       clearFns.fresh();
       clearFns.catalyst();
     });
