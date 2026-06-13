@@ -244,7 +244,7 @@
         <div class="ac-wrap">
           <div class="ac-row">
             <input id="fresh" type="text" placeholder="🌿 search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
-            <button class="btn-clear" id="fresh-clear" type="button">🍂</button>
+            <button class="btn-clear" id="fresh-clear" type="button" tabindex="-1">🍂</button>
           </div>
           <div class="ac-hint" id="fresh-hint"></div>
         </div>
@@ -254,18 +254,19 @@
         <div class="ac-wrap">
           <div class="ac-row">
             <input id="catalyst" type="text" placeholder="🌱 search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
-            <button class="btn-clear" id="catalyst-clear" type="button"><span class="mirror">🍂</span></button>
+            <button class="btn-clear" id="catalyst-clear" type="button" tabindex="-1"><span class="mirror">🍂</span></button>
           </div>
           <div class="ac-hint" id="catalyst-hint"></div>
         </div>
         <div class="description" id="catalyst-desc"></div>
       </div>
     </div>
-    <div class="result-area">
+        <div class="result-area">
       <div class="result-row">
         <div class="result-text" id="result"></div>
         <button class="btn-next" id="next-btn" type="button">🍂New<span class="mirror">🍂</span></button>
       </div>
+      <div class="description" id="result-desc"></div>
     </div>
     <div class="footer-title">🧪 Elixir Crafting <span class="mirror">🧪</span></div>
   </div>
@@ -349,23 +350,27 @@
       document.getElementById('catalyst-desc').textContent =
         catId ? ing[catId].description : '';
 
-      const resultEl = document.getElementById('result');
+            const resultEl = document.getElementById('result');
+      const resultDesc = document.getElementById('result-desc');
       if (!freshId || !catId) {
         resultEl.textContent = '';
         resultEl.className = 'result-text';
+        resultDesc.textContent = '';
         return;
       }
 
       const key = [freshId, catId].sort().join('+');
       const recipe = worldData.recipes[key];
 
-            if (recipe) {
+      if (recipe) {
         const potion = worldData.potions[recipe.potion];
-        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + potion.name + ' — ' + potion.description;
+        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + potion.name;
         resultEl.className = 'result-text success';
+        resultDesc.textContent = potion.description;
       } else {
-        resultEl.textContent = '💥nothing remarkable was brewed💥';
+        resultEl.textContent = '\uD83D\uDCA5nothing remarkable was brewed\uD83D\uDCA5';
         resultEl.className = 'result-text fail';
+        resultDesc.textContent = '';
       }
     }
 
