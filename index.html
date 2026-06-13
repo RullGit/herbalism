@@ -191,7 +191,7 @@
       border: 2px solid #c9a96e;
       margin-top: 0.5rem;
       border-radius: 12px;
-      padding: 0.5rem 0.65rem;
+      padding: 5px;
       flex-shrink: 0;
       box-shadow: 0 0 12px rgba(201,169,110,0.15), inset 0 1px 3px rgba(0,0,0,0.3);
       position: relative;
@@ -207,6 +207,9 @@
       padding: 0 0.4rem;
       border-radius: 50%;
     }
+    .result-area .description {
+      margin-top: -7px;
+    }
     .result-row {
       display: flex;
       gap: 0.5rem;
@@ -214,9 +217,9 @@
     }
     .result-text {
       flex: 1;
+      font-size: 1.0rem;
       min-width: 0;
       border-radius: 8px;
-      font-size: 0.9rem;
     }
     .result-text.success {
       color: #a0d468;
@@ -345,7 +348,7 @@
         if (matches.length === 1) {
           pick(matches[0]);
         } else {
-          hint.innerHTML = matches.length ? '🌺 ' + matches.length + ' ingredients possible <span class="mirror">🌺</span>' : '🍃 no ingredient matches <span class="mirror">🍃</span>';
+          hint.innerHTML = matches.length ? matches.length + ' ingredients possible' : '🍃 no ingredient matches <span class="mirror">🍃</span>';
         }
       });
     }
@@ -355,12 +358,10 @@
       const catId   = resolved.catalyst;
       const ing     = worldData.ingredients;
 
-      document.getElementById('fresh-desc').textContent =
-        freshId ? ing[freshId].description : '';
-      document.getElementById('catalyst-desc').textContent =
-        catId ? ing[catId].description : '';
+      document.getElementById('fresh-desc').textContent = freshId ? ing[freshId].description : '';
+      document.getElementById('catalyst-desc').textContent = catId ? ing[catId].description : '';
 
-            const resultEl = document.getElementById('result');
+      const resultEl = document.getElementById('result');
       const resultDesc = document.getElementById('result-desc');
       if (!freshId || !catId) {
         resultEl.textContent = '';
@@ -374,7 +375,7 @@
 
       if (recipe) {
         const potion = worldData.potions[recipe.potion];
-        resultEl.innerHTML  = '<span class="mirror">🧪</span>' + potion.name + '🧪';
+        resultEl.innerHTML  = '<span class="mirror">🧪</span> ' + potion.name + ' 🧪';
         resultEl.className = 'result-text success';
         resultDesc.textContent = potion.description;
       } else {
