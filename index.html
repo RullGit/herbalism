@@ -169,7 +169,7 @@
     }
     .ac-hint {
       margin-top: 0.1rem;
-      font-size: 1.75rem;
+      font-size: 1.25rem;
       color: #7a8a6a;
       height: auto;
     }
@@ -230,6 +230,11 @@
     .result-text.fail {
       color: #c7221c;
     }
+    .mirror {
+      display: inline-block;
+      transform: scaleX(-1);
+      transform-origin: center;
+    }
   </style>
 </head>
 <body>
@@ -249,7 +254,7 @@
         <div class="ac-wrap">
           <div class="ac-row">
             <input id="catalyst" type="text" placeholder="🌱 search…" autocomplete="one-time-code" data-lpignore="true" data-form-type="other" data-1p-ignore>
-            <button class="btn-clear" id="catalyst-clear" type="button">🍂</button>
+            <button class="btn-clear" id="catalyst-clear" type="button"><span class="mirror">🍂</span></button>
           </div>
           <div class="ac-hint" id="catalyst-hint"></div>
         </div>
@@ -259,10 +264,10 @@
     <div class="result-area">
       <div class="result-row">
         <div class="result-text" id="result"></div>
-        <button class="btn-next" id="next-btn" type="button">🍂New🍂</button>
+        <button class="btn-next" id="next-btn" type="button">🍂New<span class="mirror">🍂</span></button>
       </div>
     </div>
-    <div class="footer-title">🧪 Elixir Crafting 🧪</div>
+    <div class="footer-title">🧪 Elixir Crafting <span class="mirror">🧪</span></div>
   </div>
 
   <script src="world.js"></script>
@@ -358,7 +363,7 @@
         resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + recipe.description;
         resultEl.className = 'result-text success';
       } else {
-        resultEl.textContent = '\uD83E\uDDEA\uD83C\uDF43 nothing remarkable was brewed';
+        resultEl.textContent = '💥nothing remarkable was brewed💥';
         resultEl.className = 'result-text fail';
       }
     }
