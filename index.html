@@ -169,7 +169,7 @@
     }
     .ac-hint {
       margin-top: 0.1rem;
-      font-size: 1.25rem;
+      font-size: 1.0rem;
       color: #7a8a6a;
       height: auto;
     }
@@ -345,7 +345,7 @@
         if (matches.length === 1) {
           pick(matches[0]);
         } else {
-          hint.textContent = matches.length ? '🌺 ' + matches.length + ' ingredients possible <span class="mirror">🌺</span>' : '🍃 no ingredient matches <span class="mirror">🍃</span>';
+          hint.innerHTML = matches.length ? '🌺 ' + matches.length + ' ingredients possible <span class="mirror">🌺</span>' : '🍃 no ingredient matches <span class="mirror">🍃</span>';
         }
       });
     }
