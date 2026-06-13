@@ -189,6 +189,7 @@
     .result-area {
       background: linear-gradient(135deg, rgba(42,31,14,0.85) 0%, rgba(26,46,26,0.8) 100%);
       border: 2px solid #c9a96e;
+      margin-top: 0.5rem;
       border-radius: 12px;
       padding: 0.5rem 0.65rem;
       flex-shrink: 0;
@@ -256,11 +257,11 @@
         <div class="description" id="catalyst-desc"></div>
       </div>
     </div>
-        <div class="result-area">
-      <div class="result-row">
-        <div class="result-text" id="result"></div>
-        <button class="btn-next" id="next-btn" type="button">🍂New<span class="mirror">🍂</span></button>
-      </div>
+      <div class="result-area">
+        <div class="result-row">
+          <div class="result-text" id="result"></div>
+          <button class="btn-next" id="next-btn" type="button">🍂New<span class="mirror">🍂</span></button>
+        </div>
       <div class="description" id="result-desc"></div>
     </div>
     <div class="footer-title">🧪 Elixir Crafting <span class="mirror">🧪</span></div>
@@ -272,12 +273,26 @@
       const ingredients = worldData.ingredients;
 
       // Build sorted list of entries as { id, label, description }
+            const biomeEmoji = {
+        'Woestijn': '🌵',
+        'Grasland': '🌾',
+        'Kust': '🐚',
+        'Grot': '🍄',
+        'Bergen': '⛰',
+        'Oerbos': '🌲',
+        'Poolgebied': '❄️',
+        'Moeras': '☠️'
+      };
+
       const sorted = Object.entries(ingredients)
-        .map(([id, ing]) => ({
-          id,
-          label: ing.name + '  (' + ing.biome + ')',
-          description: ing.description
-        }))
+        .map(([id, ing]) => {
+          const em = biomeEmoji[ing.biome];
+          return {
+            id,
+            label: em + ing.name + em,
+            description: ing.description
+          };
+        })
         .sort((a, b) => a.label.localeCompare(b.label, 'nl'));
 
       setupAC('fresh', sorted);
@@ -302,7 +317,7 @@
       function pick(item) {
         resolved[name] = item.id;
         input.classList.add('matched');
-        hint.textContent = '🌺' + item.label;
+        hint.textContent = item.label;
         update();
       }
 
@@ -330,7 +345,7 @@
         if (matches.length === 1) {
           pick(matches[0]);
         } else {
-          hint.textContent = matches.length ? '\uD83C\uDF3E ' + matches.length + ' ingredients possible \uD83C\uDF3E' : '🍃 no ingredient matches 🍃';
+          hint.textContent = matches.length ? '🌺 ' + matches.length + ' ingredients possible <span class="mirror">🌺</span>' : '🍃 no ingredient matches <span class="mirror">🍃</span>';
         }
       });
     }
@@ -359,7 +374,7 @@
 
       if (recipe) {
         const potion = worldData.potions[recipe.potion];
-        resultEl.innerHTML  = '🧪' + potion.name + '<span class="mirror">🧪</span>';
+        resultEl.innerHTML  = '<span class="mirror">🧪</span>' + potion.name + '🧪';
         resultEl.className = 'result-text success';
         resultDesc.textContent = potion.description;
       } else {
