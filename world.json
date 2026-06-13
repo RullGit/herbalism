@@ -404,7 +404,7 @@
   "recipes": {
     "Poolgebied1c+Poolgebied3c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Sneeuwwit ijsmos",
       "catalyst": "Onbevriesbaar bronwater"
     },
@@ -434,7 +434,7 @@
     },
     "Poolgebied1c+Grasland2c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Sneeuwwit ijsmos",
       "catalyst": "Gouden ochtendzongras"
     },
@@ -452,7 +452,7 @@
     },
     "Poolgebied1c+Grot4c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Sneeuwwit ijsmos",
       "catalyst": "Sluimerend spelonkmos"
     },
@@ -530,19 +530,19 @@
     },
     "Poolgebied2c+Poolgebied4c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Vorsthars van oude ijsdennen"
     },
     "Poolgebied2c+Poolgebied5c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Hemelglans Sneeuwbloemen"
     },
     "Poolgebied2c+Poolgebied6r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Bevroren Noorderlichtdauw"
     },
@@ -572,7 +572,7 @@
     },
     "Poolgebied2c+Grasland2c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Gouden ochtendzongras"
     },
@@ -650,7 +650,7 @@
     },
     "Poolgebied2c+Oerbos8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Droomklaproos"
     },
@@ -662,7 +662,7 @@
     },
     "Poolgebied2c+Woestijn8r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Maanglansgevangen poolzout",
       "catalyst": "Onverdampbaar oasewater"
     },
@@ -692,13 +692,13 @@
     },
     "Poolgebied3c+Grasland5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Onbevriesbaar bronwater",
       "catalyst": "Gezegende ochtenddauw"
     },
     "Poolgebied3c+Grasland8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Onbevriesbaar bronwater",
       "catalyst": "Arcaan bronbeekwater"
     },
@@ -710,7 +710,7 @@
     },
     "Poolgebied3c+Kust6r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Onbevriesbaar bronwater",
       "catalyst": "Spooklichtschelpen"
     },
@@ -770,7 +770,7 @@
     },
     "Poolgebied4c+Bergen6r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Vorsthars van oude ijsdennen",
       "catalyst": "Verdwaalde dennenaalden"
     },
@@ -782,7 +782,7 @@
     },
     "Poolgebied4c+Grasland5c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Vorsthars van oude ijsdennen",
       "catalyst": "Gezegende ochtenddauw"
     },
@@ -836,7 +836,7 @@
     },
     "Poolgebied4c+Woestijn4c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Vorsthars van oude ijsdennen",
       "catalyst": "Zandstormkristal"
     },
@@ -848,7 +848,7 @@
     },
     "Poolgebied4c+Woestijn8r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Vorsthars van oude ijsdennen",
       "catalyst": "Onverdampbaar oasewater"
     },
@@ -920,7 +920,7 @@
     },
     "Poolgebied5c+Moeras3c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Hemelglans Sneeuwbloemen",
       "catalyst": "Schaduwglanzende moerasbessen"
     },
@@ -956,13 +956,13 @@
     },
     "Poolgebied5c+Woestijn2c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Hemelglans Sneeuwbloemen",
       "catalyst": "Avondgloed-palm bladeren"
     },
     "Poolgebied5c+Woestijn3c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Hemelglans Sneeuwbloemen",
       "catalyst": "Oasedauw"
     },
@@ -974,7 +974,7 @@
     },
     "Poolgebied6r+Poolgebied7r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Bevroren Noorderlichtdauw",
       "catalyst": "Altijdbevroren Gletsjer-ijs"
     },
@@ -998,7 +998,7 @@
     },
     "Poolgebied6r+Grasland6r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Bevroren Noorderlichtdauw",
       "catalyst": "Paarse Wind"
     },
@@ -1088,13 +1088,13 @@
     },
     "Poolgebied7r+Moeras8r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Altijdbevroren Gletsjer-ijs",
       "catalyst": "Magiedoordrenkt Veenmos"
     },
     "Poolgebied7r+Oerbos1c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Altijdbevroren Gletsjer-ijs",
       "catalyst": "Fluisterboomhars"
     },
@@ -1118,7 +1118,7 @@
     },
     "Poolgebied7r+Woestijn6r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Altijdbevroren Gletsjer-ijs",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -1130,7 +1130,7 @@
     },
     "Poolgebied8r+Bergen7r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Etherische aurora-kristallen",
       "catalyst": "Eeuwigfonkelend Diamantzout"
     },
@@ -1208,7 +1208,7 @@
     },
     "Bergen1c+Bergen4c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "IJzerhars van rotsdennen",
       "catalyst": "Glinsterend zilversparrensap"
     },
@@ -1298,7 +1298,7 @@
     },
     "Bergen1c+Woestijn6r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "IJzerhars van rotsdennen",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -1322,13 +1322,13 @@
     },
     "Bergen2c+Grasland6r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Lawinekruid",
       "catalyst": "Paarse Wind"
     },
     "Bergen2c+Grasland8r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Lawinekruid",
       "catalyst": "Arcaan bronbeekwater"
     },
@@ -1340,7 +1340,7 @@
     },
     "Bergen2c+Grot5c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Lawinekruid",
       "catalyst": "Duisteralg"
     },
@@ -1352,7 +1352,7 @@
     },
     "Bergen2c+Moeras4c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Lawinekruid",
       "catalyst": "Nachtmistzwam"
     },
@@ -1364,7 +1364,7 @@
     },
     "Bergen2c+Moeras8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Lawinekruid",
       "catalyst": "Magiedoordrenkt Veenmos"
     },
@@ -1418,7 +1418,7 @@
     },
     "Bergen3c+Kust8r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Stormroos",
       "catalyst": "Onzichtbaar koraal"
     },
@@ -1430,7 +1430,7 @@
     },
     "Bergen3c+Oerbos4c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Stormroos",
       "catalyst": "Betoverd dauwmos"
     },
@@ -1442,7 +1442,7 @@
     },
     "Bergen3c+Woestijn2c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Stormroos",
       "catalyst": "Avondgloed-palm bladeren"
     },
@@ -1484,7 +1484,7 @@
     },
     "Bergen4c+Kust3c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Glinsterend zilversparrensap",
       "catalyst": "Parelmoer brandingkalk"
     },
@@ -1502,7 +1502,7 @@
     },
     "Bergen4c+Moeras2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Glinsterend zilversparrensap",
       "catalyst": "Mistveenschimmel"
     },
@@ -1538,7 +1538,7 @@
     },
     "Bergen5c+Grot4c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Onweeralsem",
       "catalyst": "Sluimerend spelonkmos"
     },
@@ -1580,7 +1580,7 @@
     },
     "Bergen5c+Woestijn6r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Onweeralsem",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -1622,7 +1622,7 @@
     },
     "Bergen6r+Grot4c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Verdwaalde dennenaalden",
       "catalyst": "Sluimerend spelonkmos"
     },
@@ -1700,7 +1700,7 @@
     },
     "Bergen7r+Grot3c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Eeuwigfonkelend Diamantzout",
       "catalyst": "Dieptegloeiende zoutkristallen"
     },
@@ -1712,7 +1712,7 @@
     },
     "Bergen7r+Grot7r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Eeuwigfonkelend Diamantzout",
       "catalyst": "Trilgevoelig Dieptemos"
     },
@@ -1760,7 +1760,7 @@
     },
     "Bergen7r+Woestijn3c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Eeuwigfonkelend Diamantzout",
       "catalyst": "Oasedauw"
     },
@@ -1772,13 +1772,13 @@
     },
     "Bergen7r+Woestijn5c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Eeuwigfonkelend Diamantzout",
       "catalyst": "Versteend Dadelpalmschors"
     },
     "Bergen7r+Woestijn6r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Eeuwigfonkelend Diamantzout",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -1790,13 +1790,13 @@
     },
     "Bergen8r+Grasland6r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Paarse Wind"
     },
     "Bergen8r+Grot1c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Druipsteenwater"
     },
@@ -1808,7 +1808,7 @@
     },
     "Bergen8r+Grot8r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Eeuwige fluisterkristallen"
     },
@@ -1832,13 +1832,13 @@
     },
     "Bergen8r+Kust7r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Altijdglanzende Parels"
     },
     "Bergen8r+Moeras2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Mistveenschimmel"
     },
@@ -1862,7 +1862,7 @@
     },
     "Bergen8r+Moeras8r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Bliksemgeladen bergmunt",
       "catalyst": "Magiedoordrenkt Veenmos"
     },
@@ -1922,7 +1922,7 @@
     },
     "Grasland1c+Grot8r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Steppewindkruid",
       "catalyst": "Eeuwige fluisterkristallen"
     },
@@ -1946,7 +1946,7 @@
     },
     "Grasland1c+Woestijn2c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Steppewindkruid",
       "catalyst": "Avondgloed-palm bladeren"
     },
@@ -1982,7 +1982,7 @@
     },
     "Grasland2c+Kust7r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Gouden ochtendzongras",
       "catalyst": "Altijdglanzende Parels"
     },
@@ -2000,7 +2000,7 @@
     },
     "Grasland2c+Moeras5c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Gouden ochtendzongras",
       "catalyst": "Zilvertreurwilgenschors"
     },
@@ -2072,7 +2072,7 @@
     },
     "Grasland3c+Kust8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Midzomerbloemenhoning",
       "catalyst": "Onzichtbaar koraal"
     },
@@ -2084,7 +2084,7 @@
     },
     "Grasland3c+Moeras5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Midzomerbloemenhoning",
       "catalyst": "Zilvertreurwilgenschors"
     },
@@ -2156,13 +2156,13 @@
     },
     "Grasland4c+Moeras2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Sterrenklaver",
       "catalyst": "Mistveenschimmel"
     },
     "Grasland4c+Moeras6r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Sterrenklaver",
       "catalyst": "Zwarte Lotus"
     },
@@ -2222,7 +2222,7 @@
     },
     "Grasland5c+Grot7r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Gezegende ochtenddauw",
       "catalyst": "Trilgevoelig Dieptemos"
     },
@@ -2240,7 +2240,7 @@
     },
     "Grasland5c+Moeras4c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Gezegende ochtenddauw",
       "catalyst": "Nachtmistzwam"
     },
@@ -2258,13 +2258,13 @@
     },
     "Grasland5c+Woestijn6r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Gezegende ochtenddauw",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
     "Grasland6r+Grasland8r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Paarse Wind",
       "catalyst": "Arcaan bronbeekwater"
     },
@@ -2354,13 +2354,13 @@
     },
     "Grasland7r+Kust8r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Zilver Maanbolsap",
       "catalyst": "Onzichtbaar koraal"
     },
     "Grasland7r+Moeras3c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Zilver Maanbolsap",
       "catalyst": "Schaduwglanzende moerasbessen"
     },
@@ -2438,7 +2438,7 @@
     },
     "Grasland8r+Woestijn6r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Arcaan bronbeekwater",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -2474,13 +2474,13 @@
     },
     "Grot1c+Moeras1c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Druipsteenwater",
       "catalyst": "Moeras spirea"
     },
     "Grot1c+Moeras2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Druipsteenwater",
       "catalyst": "Mistveenschimmel"
     },
@@ -2534,7 +2534,7 @@
     },
     "Grot2c+Moeras7r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Luminescente Koperzwam",
       "catalyst": "Vervlochten mistriet"
     },
@@ -2558,7 +2558,7 @@
     },
     "Grot3c+Grot7r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Dieptegloeiende zoutkristallen",
       "catalyst": "Trilgevoelig Dieptemos"
     },
@@ -2600,13 +2600,13 @@
     },
     "Grot3c+Oerbos2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Dieptegloeiende zoutkristallen",
       "catalyst": "Fluoriserend maanblad"
     },
     "Grot3c+Oerbos8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Dieptegloeiende zoutkristallen",
       "catalyst": "Droomklaproos"
     },
@@ -2618,7 +2618,7 @@
     },
     "Grot3c+Woestijn4c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Dieptegloeiende zoutkristallen",
       "catalyst": "Zandstormkristal"
     },
@@ -2642,7 +2642,7 @@
     },
     "Grot4c+Kust5c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Sluimerend spelonkmos",
       "catalyst": "Springtijschuim"
     },
@@ -2654,19 +2654,19 @@
     },
     "Grot4c+Moeras3c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Sluimerend spelonkmos",
       "catalyst": "Schaduwglanzende moerasbessen"
     },
     "Grot4c+Oerbos2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Sluimerend spelonkmos",
       "catalyst": "Fluoriserend maanblad"
     },
     "Grot4c+Oerbos5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Sluimerend spelonkmos",
       "catalyst": "Maanlichtverrijkte Wilgenbladeren"
     },
@@ -2708,7 +2708,7 @@
     },
     "Grot5c+Kust7r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Duisteralg",
       "catalyst": "Altijdglanzende Parels"
     },
@@ -2792,7 +2792,7 @@
     },
     "Grot7r+Kust4c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Trilgevoelig Dieptemos",
       "catalyst": "Zeelavendel"
     },
@@ -2846,13 +2846,13 @@
     },
     "Grot7r+Woestijn3c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Trilgevoelig Dieptemos",
       "catalyst": "Oasedauw"
     },
     "Grot7r+Woestijn8r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Trilgevoelig Dieptemos",
       "catalyst": "Onverdampbaar oasewater"
     },
@@ -2876,13 +2876,13 @@
     },
     "Grot8r+Oerbos1c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Eeuwige fluisterkristallen",
       "catalyst": "Fluisterboomhars"
     },
     "Grot8r+Oerbos7r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Eeuwige fluisterkristallen",
       "catalyst": "Smaragdgroene sterrenvaren"
     },
@@ -2930,7 +2930,7 @@
     },
     "Kust1c+Oerbos3c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Mystiek getijdenzout",
       "catalyst": "Gloeiwortelsap"
     },
@@ -2948,13 +2948,13 @@
     },
     "Kust1c+Woestijn8r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Mystiek getijdenzout",
       "catalyst": "Onverdampbaar oasewater"
     },
     "Kust2c+Moeras1c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Diepzee-sluieralgen",
       "catalyst": "Moeras spirea"
     },
@@ -2966,13 +2966,13 @@
     },
     "Kust2c+Moeras8r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Diepzee-sluieralgen",
       "catalyst": "Magiedoordrenkt Veenmos"
     },
     "Kust2c+Woestijn3c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Diepzee-sluieralgen",
       "catalyst": "Oasedauw"
     },
@@ -2996,7 +2996,7 @@
     },
     "Kust3c+Kust6r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Parelmoer brandingkalk",
       "catalyst": "Spooklichtschelpen"
     },
@@ -3014,7 +3014,7 @@
     },
     "Kust3c+Moeras5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Parelmoer brandingkalk",
       "catalyst": "Zilvertreurwilgenschors"
     },
@@ -3050,7 +3050,7 @@
     },
     "Kust4c+Kust5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Zeelavendel",
       "catalyst": "Springtijschuim"
     },
@@ -3080,19 +3080,19 @@
     },
     "Kust4c+Oerbos5c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Zeelavendel",
       "catalyst": "Maanlichtverrijkte Wilgenbladeren"
     },
     "Kust4c+Woestijn1c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Zeelavendel",
       "catalyst": "Zonverschroeid saffraanstof"
     },
     "Kust4c+Woestijn3c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Zeelavendel",
       "catalyst": "Oasedauw"
     },
@@ -3104,7 +3104,7 @@
     },
     "Kust5c+Kust7r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Springtijschuim",
       "catalyst": "Altijdglanzende Parels"
     },
@@ -3146,7 +3146,7 @@
     },
     "Kust5c+Woestijn8r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Springtijschuim",
       "catalyst": "Onverdampbaar oasewater"
     },
@@ -3188,13 +3188,13 @@
     },
     "Kust7r+Moeras7r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Altijdglanzende Parels",
       "catalyst": "Vervlochten mistriet"
     },
     "Kust7r+Woestijn6r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Altijdglanzende Parels",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -3248,7 +3248,7 @@
     },
     "Moeras1c+Oerbos1c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Moeras spirea",
       "catalyst": "Fluisterboomhars"
     },
@@ -3272,7 +3272,7 @@
     },
     "Moeras1c+Woestijn2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Moeras spirea",
       "catalyst": "Avondgloed-palm bladeren"
     },
@@ -3320,7 +3320,7 @@
     },
     "Moeras2c+Woestijn7r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Mistveenschimmel",
       "catalyst": "Vuurbestendig Jojobahars"
     },
@@ -3332,7 +3332,7 @@
     },
     "Moeras3c+Moeras6r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Schaduwglanzende moerasbessen",
       "catalyst": "Zwarte Lotus"
     },
@@ -3368,7 +3368,7 @@
     },
     "Moeras3c+Woestijn6r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Schaduwglanzende moerasbessen",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
@@ -3422,13 +3422,13 @@
     },
     "Moeras5c+Oerbos2c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Zilvertreurwilgenschors",
       "catalyst": "Fluoriserend maanblad"
     },
     "Moeras5c+Oerbos6r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Zilvertreurwilgenschors",
       "catalyst": "Nachtbloeiende Bosanemoon"
     },
@@ -3446,13 +3446,13 @@
     },
     "Moeras5c+Woestijn6r": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Zilvertreurwilgenschors",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
     "Moeras5c+Woestijn7r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Zilvertreurwilgenschors",
       "catalyst": "Vuurbestendig Jojobahars"
     },
@@ -3464,7 +3464,7 @@
     },
     "Moeras6r+Oerbos1c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Zwarte Lotus",
       "catalyst": "Fluisterboomhars"
     },
@@ -3500,7 +3500,7 @@
     },
     "Moeras7r+Oerbos7r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Vervlochten mistriet",
       "catalyst": "Smaragdgroene sterrenvaren"
     },
@@ -3512,13 +3512,13 @@
     },
     "Moeras7r+Woestijn6r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Vervlochten mistriet",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
     "Moeras8r+Oerbos2c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Magiedoordrenkt Veenmos",
       "catalyst": "Fluoriserend maanblad"
     },
@@ -3536,13 +3536,13 @@
     },
     "Oerbos1c+Oerbos2c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Fluisterboomhars",
       "catalyst": "Fluoriserend maanblad"
     },
     "Oerbos1c+Oerbos3c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Fluisterboomhars",
       "catalyst": "Gloeiwortelsap"
     },
@@ -3674,7 +3674,7 @@
     },
     "Oerbos6r+Woestijn5c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Nachtbloeiende Bosanemoon",
       "catalyst": "Versteend Dadelpalmschors"
     },
@@ -3704,7 +3704,7 @@
     },
     "Oerbos7r+Woestijn5c": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Smaragdgroene sterrenvaren",
       "catalyst": "Versteend Dadelpalmschors"
     },
@@ -3716,7 +3716,7 @@
     },
     "Oerbos8r+Woestijn1c": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Droomklaproos",
       "catalyst": "Zonverschroeid saffraanstof"
     },
@@ -3746,13 +3746,13 @@
     },
     "Woestijn1c+Woestijn8r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Zonverschroeid saffraanstof",
       "catalyst": "Onverdampbaar oasewater"
     },
     "Woestijn2c+Woestijn7r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Avondgloed-palm bladeren",
       "catalyst": "Vuurbestendig Jojobahars"
     },
@@ -3764,31 +3764,31 @@
     },
     "Woestijn3c+Woestijn6r": {
       "potion": "Potion_6",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls",
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls.",
       "fresh": "Oasedauw",
       "catalyst": "Zelfontvlammende Cactusbloesem-as"
     },
     "Woestijn4c+Woestijn5c": {
       "potion": "Potion_11",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used.",
       "fresh": "Zandstormkristal",
       "catalyst": "Versteend Dadelpalmschors"
     },
     "Woestijn4c+Woestijn7r": {
       "potion": "Potion_3",
-      "description": "this turn, if you didn't move, advantage on one attack",
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack",
       "fresh": "Zandstormkristal",
       "catalyst": "Vuurbestendig Jojobahars"
     },
     "Woestijn6r+Woestijn7r": {
       "potion": "Potion_22",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used",
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used",
       "fresh": "Zelfontvlammende Cactusbloesem-as",
       "catalyst": "Vuurbestendig Jojobahars"
     },
     "Woestijn6r+Woestijn8r": {
       "potion": "Potion_18",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute",
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute",
       "fresh": "Zelfontvlammende Cactusbloesem-as",
       "catalyst": "Onverdampbaar oasewater"
     }
@@ -3804,7 +3804,7 @@
     },
     "Potion_3": {
       "rarity": "common",
-      "description": "this turn, if you didn't move, advantage on one attack"
+      "description": "Elixer of Focussing\nThis turn, if you didn't move, advantage on one attack"
     },
     "Potion_4": {
       "rarity": "common",
@@ -3816,7 +3816,7 @@
     },
     "Potion_6": {
       "rarity": "common",
-      "description": "for a minute, advantage on all atlethics and acrobatics rolls"
+      "description": "Elixer of Grace\nFor 1 minute, advantage on all athletics and acrobatics rolls."
     },
     "Potion_7": {
       "rarity": "common",
@@ -3836,7 +3836,7 @@
     },
     "Potion_11": {
       "rarity": "common",
-      "description": "the next time you take elemental damage, half that damage. lasts 1 minute or until used"
+      "description": "Elixer of Aegis\nthe next time you take elemental damage, half that damage. lasts 1 minute or until used."
     }
   },
   "rarepotions": {
@@ -3866,7 +3866,7 @@
     },
     "Potion_18": {
       "rarity": "rare",
-      "description": "temp hp equal to 2d4 + your medicine skill. lasts 1 minute"
+      "description": "Elixer of Strong Vitals\nGain temporary HP equal to 2d4 + the medicine skill of the crafter. lasts 1 minute"
     },
     "Potion_19": {
       "rarity": "rare",
@@ -3882,7 +3882,7 @@
     },
     "Potion_22": {
       "rarity": "rare",
-      "description": "for fire, cold, electric, acid and sonic each, the next time you take damage of that type, half that damage. lasts 1 minute or until used"
+      "description": "Elixer of Superior Aegis\nFor fire, cold, electric, acid and sonic each: the next time you take damage of that type, half that damage. lasts 1 minute or until used"
     }
   }
 }
