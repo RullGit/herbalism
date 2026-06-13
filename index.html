@@ -359,8 +359,9 @@
       const key = [freshId, catId].sort().join('+');
       const recipe = worldData.recipes[key];
 
-      if (recipe) {
-        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + recipe.description;
+            if (recipe) {
+        const potion = worldData.potions[recipe.potion];
+        resultEl.textContent = '\u2697\uFE0F\uD83C\uDF3F ' + potion.name + ' — ' + potion.description;
         resultEl.className = 'result-text success';
       } else {
         resultEl.textContent = '💥nothing remarkable was brewed💥';
